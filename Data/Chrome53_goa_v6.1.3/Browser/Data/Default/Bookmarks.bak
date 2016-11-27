@@ -1,0 +1,902 @@
+{
+   "checksum": "d0f1ebfdf953d00d82d1558f228feb0b",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13042811210000000",
+               "id": "393",
+               "name": "应用",
+               "type": "url",
+               "url": "chrome://apps/"
+            }, {
+               "date_added": "13059463208000000",
+               "id": "394",
+               "name": "Chrome 网上应用店 - 应用",
+               "type": "url",
+               "url": "https://chrome.google.com/webstore/category/apps?hl=zh-CN"
+            }, {
+               "children": [ {
+                  "date_added": "13037685757000000",
+                  "id": "397",
+                  "name": "Chrome Web Store - AdBlock【广告屏蔽】",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom"
+               }, {
+                  "date_added": "12996496591000000",
+                  "id": "396",
+                  "name": "Chrome 网上应用店 - Proxy SwitchySharp【代理切换】",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm?utm_source=chrome-ntp-icon"
+               }, {
+                  "date_added": "13042818047000000",
+                  "id": "402",
+                  "name": "Chrome Web Store - Speed Dial [FVD]【新标签页增强】",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/speed-dial-fvd-new-tab-pa/llaficoajjainaijghjlofdfmbjpebpa?utm_source=webstore-app&utm_medium=awesome-new-tab-page"
+               }, {
+                  "date_added": "13028274655000000",
+                  "id": "398",
+                  "name": "Chrome Web Store - Tampermonkey【脚本管理】",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo"
+               }, {
+                  "date_added": "13052379209000000",
+                  "id": "400",
+                  "name": "Chrome Web Store - 超级拖曳【拖拽和鼠标手势】",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/drag-and-go/jaikcnhlohebodlpkmjepipngegjbfpg"
+               } ],
+               "date_added": "13060945677654875",
+               "date_modified": "13067832688015750",
+               "id": "395",
+               "name": "启用的扩展",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13045399093000000",
+                  "id": "404",
+                  "name": "YouTube Center · GitHub【YouTube增强设置】",
+                  "type": "url",
+                  "url": "https://github.com/YePpHa/YouTubeCenter/wiki"
+               }, {
+                  "date_added": "13051409730000000",
+                  "id": "405",
+                  "name": "Youtube Downloader【支持多站视频下载】",
+                  "type": "url",
+                  "url": "http://en.savefrom.net/user.php"
+               }, {
+                  "date_added": "13087368388695500",
+                  "id": "583",
+                  "name": "Download YouTube Videos as MP4",
+                  "type": "url",
+                  "url": "https://github.com/gantt/downloadyoutube"
+               } ],
+               "date_added": "13060945677655875",
+               "date_modified": "13087368411839625",
+               "id": "403",
+               "name": "Tampermonkey 脚本",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13052056935000000",
+                  "id": "407",
+                  "name": "Chrome 网上应用店 - Stylist【网页背景色设置】",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/stylist/pabfempgigicdjjlccdgnbmeggkbjdhd?utm_source=chrome-ntp-icon"
+               }, {
+                  "date_added": "13078728019272750",
+                  "id": "580",
+                  "name": "HD for YouTube™ - Chrome 网上应用店",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/hd-for-youtube/akjbfncbadcmnkopckegnmjgihagponf"
+               } ],
+               "date_added": "13060945677656875",
+               "date_modified": "13078728019272750",
+               "id": "406",
+               "name": "已安装但未启用的扩展",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "12996502067000000",
+                  "id": "409",
+                  "name": "Chrome 网上应用店 - Xmarks Bookmark Sync",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/xmarks-bookmark-sync/ajpgkpeckebdhofmmjfgcjjiiejpodla?utm_source=chrome-ntp-icon"
+               }, {
+                  "date_added": "12996502206000000",
+                  "id": "410",
+                  "name": "Chrome 网上应用店 - 印象笔记·剪藏",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc"
+               }, {
+                  "date_added": "12996502217000000",
+                  "id": "411",
+                  "name": "Chrome 网上应用店 - Flag for Chrome",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/flag-for-chrome/dbpojpfdiliekbbiplijcphappgcgjfn"
+               }, {
+                  "date_added": "13028274724000000",
+                  "id": "412",
+                  "name": "Tampermonkey - the most popular userscript manager for Blink-based browsers",
+                  "type": "url",
+                  "url": "http://tampermonkey.net/"
+               }, {
+                  "date_added": "12996498755000000",
+                  "id": "413",
+                  "name": "YouTube Video Download for Greasemonkey",
+                  "type": "url",
+                  "url": "https://userscripts.org/scripts/show/62634"
+               }, {
+                  "date_added": "13030282693000000",
+                  "id": "414",
+                  "name": "Chrome Web Store - HTML5 Video for YouTube™",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/html5-video-for-youtube/dolajcekhnohkpncmhgledbmndjpblei?utm_source=webstore-app&utm_medium=awesome-new-tab-page"
+               }, {
+                  "date_added": "13011351306000000",
+                  "id": "415",
+                  "name": "Google Real Link for Greasemonkey",
+                  "type": "url",
+                  "url": "https://userscripts.org/scripts/show/125473"
+               }, {
+                  "children": [ {
+                     "date_added": "13052449120000000",
+                     "id": "417",
+                     "name": "Best Password Manager, Free Form Filler, Secure Digital Wallet | Dashlane",
+                     "type": "url",
+                     "url": "https://www.dashlane.com/"
+                  }, {
+                     "date_added": "13052448454000000",
+                     "id": "418",
+                     "name": "Chrome Web Store - Dashlane",
+                     "type": "url",
+                     "url": "https://chrome.google.com/webstore/detail/dashlane/jmpplnklgealmmnncbdpehifojcfomaf"
+                  }, {
+                     "date_added": "13052448471000000",
+                     "id": "419",
+                     "name": "Chrome 网上应用店 - LastPass: Free Password Manager",
+                     "type": "url",
+                     "url": "https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=zh-CN"
+                  }, {
+                     "date_added": "13052448576000000",
+                     "id": "420",
+                     "name": "Chrome Web Store - PasswordBox - Free Password Manager",
+                     "type": "url",
+                     "url": "https://chrome.google.com/webstore/detail/passwordbox-free-password/dljbcjbfojhlfhgenhepllagfecdpchb?utm_source=chrome-ntp-icon"
+                  }, {
+                     "date_added": "13052448603000000",
+                     "id": "421",
+                     "name": "Chrome Web Store - 1Password: Password Manager and Secure Wallet",
+                     "type": "url",
+                     "url": "https://chrome.google.com/webstore/detail/1password-password-manage/aomjjhallfgjeglblehebfpbcfeobpgk?utm_source=chrome-ntp-icon"
+                  } ],
+                  "date_added": "13060945677657875",
+                  "date_modified": "0",
+                  "id": "416",
+                  "name": "密码管理",
+                  "type": "folder"
+               }, {
+                  "date_added": "13078728000208750",
+                  "id": "579",
+                  "name": "User-Agent Switcher for Chrome - Chrome 网上应用店",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg"
+               }, {
+                  "date_added": "13042866928000000",
+                  "id": "399",
+                  "name": "Chrome Web Store - Click&Clean【缓存清理】",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/clickclean/ghgabhipcejejjmhhchfonmamedcbeod?utm_source=webstore-app&utm_medium=awesome-new-tab-page"
+               }, {
+                  "date_added": "13042795457000000",
+                  "id": "422",
+                  "name": "Chrome Web Store - Instagram for Chrome",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/instagram-for-chrome/opnbmdkdflhjiclaoiiifmheknpccalb"
+               }, {
+                  "date_added": "13042795717000000",
+                  "id": "423",
+                  "name": "Chrome Web Store - View original size image for Picasa™",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/view-original-size-image/nkkdbkckhkoiahnjhakihonekfhconan"
+               }, {
+                  "date_added": "13052378139000000",
+                  "id": "424",
+                  "name": "Double Click Closes Tab【双击页面空白处关闭标签页】",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/double-click-closes-tab/megplcpdkmjjoondippkedoaidkeikcm"
+               }, {
+                  "date_added": "13042800114000000",
+                  "id": "425",
+                  "name": "Chrome 网上应用店 - Clickable Links",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/clickable-links/mblbciejcodpealifnhfjbdlkedplodp?utm_source=chrome-ntp-icon&hl=zh-CN"
+               }, {
+                  "date_added": "12996496646000000",
+                  "id": "426",
+                  "name": "Chrome 网上应用店 - HTTPS Everywhere",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?utm_source=chrome-ntp-icon"
+               }, {
+                  "date_added": "13042802076000000",
+                  "id": "427",
+                  "name": "Chrome Web Store - Downloads",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/downloads/ngbcgifdaopbfflfhbcfeomijfbbcadi/related?utm_source=chrome-ntp-icon"
+               }, {
+                  "date_added": "13042803915000000",
+                  "id": "428",
+                  "name": "Chrome Web Store - Video Download",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/video-download/dacoiknafinklohdbidcejfbpokabaic?utm_source=chrome-ntp-icon"
+               }, {
+                  "date_added": "13042803946000000",
+                  "id": "429",
+                  "name": "Chrome Web Store - FVD Downloader",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/fvd-downloader/lfmhcpmkbdkbgbmkjoiopeeegenkdikp?utm_source=chrome-ntp-icon"
+               }, {
+                  "date_added": "13042805082000000",
+                  "id": "430",
+                  "name": "64 Pixels - Fantastic Apps and Extensions",
+                  "type": "url",
+                  "url": "http://64px.com/"
+               }, {
+                  "date_added": "13042805422000000",
+                  "id": "431",
+                  "name": "64像素 - 网页截图的Chrome浏览器",
+                  "type": "url",
+                  "url": "http://64px.com/webpage-screenshot/bdfnieppndfdhcgbmhfdlgdjegclkomk/install"
+               }, {
+                  "date_added": "13042806997000000",
+                  "id": "432",
+                  "name": "Chrome Web Store - IOS 7 New Tab Page",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/ios-7-new-tab-page/nhbfhddhlcdaijmhfngbpihbhnbhjhgj?utm_source=webstore-app&utm_medium=awesome-new-tab-page"
+               }, {
+                  "date_added": "13042816314000000",
+                  "id": "433",
+                  "name": "Chrome Web Store - Speed Dial 2",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/speed-dial-2/jpfpebmajhhopeonhlcgidhclcccjcik?utm_source=webstore-app&utm_medium=awesome-new-tab-page"
+               }, {
+                  "date_added": "13042947140000000",
+                  "id": "434",
+                  "name": "Chrome网上应用店 - FVD下载",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/fvd-downloader/lfmhcpmkbdkbgbmkjoiopeeegenkdikp"
+               }, {
+                  "date_added": "13042956556000000",
+                  "id": "435",
+                  "name": "Chrome Web Store - Instagram for Chrome Plus",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/instagram-for-chrome-plus/lengmnbafiinbbhoempdahogkbjbfmla"
+               }, {
+                  "date_added": "13030282938000000",
+                  "id": "436",
+                  "name": "Chrome Web Store - Awesome New Tab Page™",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/awesome-new-tab-page/mgmiemnjjchgkmgbeljfocdjjnpjnmcg?utm_source=webstore-app&utm_medium=awesome-new-tab-page"
+               }, {
+                  "date_added": "13042807078000000",
+                  "id": "437",
+                  "name": "Chrome Web Store - Foxtab Speed Dial",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/foxtab-speed-dial/dchmpbaclbiioedakpcldenooikekokm?utm_source=webstore-app&utm_medium=awesome-new-tab-page"
+               }, {
+                  "date_added": "13042813880000000",
+                  "id": "438",
+                  "name": "Chrome Web Store - new metroTab",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/new-metrotab/oogmkbpkoblajkomflhkkdmbfggdmefd?utm_source=webstore-app&utm_medium=awesome-new-tab-page"
+               }, {
+                  "date_added": "13043138999000000",
+                  "id": "439",
+                  "name": "YouTube downloader tool - Fastesttube!",
+                  "type": "url",
+                  "url": "http://kwizzu.com/"
+               }, {
+                  "date_added": "13042798954000000",
+                  "id": "440",
+                  "name": "Chrome网上应用店 - 平滑手势",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/smooth-gestures/lfkgmnnajiljnolcgolmmgnecgldgeld"
+               }, {
+                  "date_added": "13047195712000000",
+                  "id": "441",
+                  "name": "Chrome 网上应用店 - 网页截图（由Google提供）",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/screen-capture-by-google/cpngackimfmofbokmjmljamhdncknpmg?utm_source=chrome-ntp-icon"
+               }, {
+                  "date_added": "13030283021000000",
+                  "id": "442",
+                  "name": "Chrome YouTube Downloader",
+                  "type": "url",
+                  "url": "http://mandel-design.xf.cz/Chrome-Youtube-Downloader/"
+               }, {
+                  "date_added": "13043128086000000",
+                  "id": "443",
+                  "name": "Chrome浏览器，YouTube下载 - 设置",
+                  "type": "url",
+                  "url": "chrome-extension://cbdjiinahkdjdcdlgfimlcolkjpbooja/html/options.html"
+               }, {
+                  "date_added": "12996497235000000",
+                  "id": "444",
+                  "name": "Chrome 网上应用店 - Pig Toolbox (Super Gestures)",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/pig-toolbox-super-gesture/oiplkfaidhjklglajdpfehoagkmlcakh?utm_source=chrome-ntp-icon"
+               }, {
+                  "date_added": "13053591749000000",
+                  "id": "445",
+                  "name": "Magic Actions for YouTube™ - Chrome 网上应用店",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/magic-actions-for-youtube/abjcfabbhafbcdfjoecdgepllmpfceif?utm_source=webstore-app&utm_medium=awesome-new-tab-page&hl=zh-CN"
+               }, {
+                  "date_added": "13056340588000000",
+                  "id": "401",
+                  "name": "Easy Video Downloader Express【支持YT1080视频下载】",
+                  "type": "url",
+                  "url": "https://chrome.google.com/webstore/detail/easy-video-downloader-exp/ieopjbbnpckbnjbbaeiiokafghfincdh"
+               } ],
+               "date_added": "13060945677656875",
+               "date_modified": "13078924525709750",
+               "id": "408",
+               "name": "chrome 扩展·未安装",
+               "type": "folder"
+            }, {
+               "date_added": "13036049833000000",
+               "id": "446",
+               "name": "Chrome URLs",
+               "type": "url",
+               "url": "chrome://chrome-urls/"
+            }, {
+               "date_added": "13011711688000000",
+               "id": "448",
+               "name": "扩展程序",
+               "type": "url",
+               "url": "chrome://extensions/"
+            }, {
+               "date_added": "13014293513000000",
+               "id": "449",
+               "name": "插件",
+               "type": "url",
+               "url": "chrome://plugins/"
+            }, {
+               "date_added": "13063170693423000",
+               "id": "562",
+               "name": "清除浏览数据",
+               "type": "url",
+               "url": "chrome://settings/clearBrowserData"
+            }, {
+               "date_added": "13014293945000000",
+               "id": "450",
+               "name": "chrome://flags",
+               "type": "url",
+               "url": "chrome://flags/"
+            }, {
+               "date_added": "13036062751000000",
+               "id": "451",
+               "name": "chrome://net-internals",
+               "type": "url",
+               "url": "chrome://net-internals/"
+            } ],
+            "date_added": "13060945677653875",
+            "date_modified": "13063170696768000",
+            "id": "392",
+            "name": "Chrome+",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "12994838796000000",
+               "id": "469",
+               "name": "Minghui.org 明慧网",
+               "type": "url",
+               "url": "http://www.minghui.org/"
+            }, {
+               "date_added": "12990693452000000",
+               "id": "465",
+               "name": "大纪元新闻网",
+               "type": "url",
+               "url": "http://www.epochtimes.com/"
+            }, {
+               "date_added": "12990693484000000",
+               "id": "466",
+               "name": "新唐人電視台",
+               "type": "url",
+               "url": "http://www.ntdtv.com/xtr/gb/index.html"
+            }, {
+               "date_added": "12990693550000000",
+               "id": "467",
+               "name": "希望之声国际广播电台",
+               "type": "url",
+               "url": "http://soundofhope.org/"
+            }, {
+               "date_added": "12993720046000000",
+               "id": "468",
+               "name": "大纪元退党网站",
+               "type": "url",
+               "url": "http://tuidang.epochtimes.com/"
+            }, {
+               "date_added": "13051672825000000",
+               "id": "470",
+               "name": "新唐人电视台在线直播",
+               "type": "url",
+               "url": "http://www.ntdtv.com/xtr/gb/tv.html"
+            }, {
+               "date_added": "13000881231000000",
+               "id": "471",
+               "name": "新唐人電視台 YouTube官方頻道",
+               "type": "url",
+               "url": "https://www.youtube.com/user/ntdchinese"
+            }, {
+               "date_added": "13003391200000000",
+               "id": "472",
+               "name": "正见",
+               "type": "url",
+               "url": "http://www.zhengjian.org/"
+            }, {
+               "date_added": "13003391214000000",
+               "id": "473",
+               "name": "新生网",
+               "type": "url",
+               "url": "http://www.xinsheng.net/"
+            }, {
+               "date_added": "12990693598000000",
+               "id": "474",
+               "name": "动态网",
+               "type": "url",
+               "url": "http://dongtaiwang.com/"
+            }, {
+               "date_added": "12992495769000000",
+               "id": "475",
+               "name": "无界网络",
+               "type": "url",
+               "url": "http://wujieliulan.com/"
+            }, {
+               "date_added": "13003391498000000",
+               "id": "476",
+               "name": "看中國",
+               "type": "url",
+               "url": "http://www.secretchina.com/"
+            }, {
+               "date_added": "12993884011000000",
+               "id": "477",
+               "name": "阿波罗新闻网",
+               "type": "url",
+               "url": "http://www.aboluowang.com/"
+            }, {
+               "date_added": "13073742177967125",
+               "id": "566",
+               "name": "禁书网",
+               "type": "url",
+               "url": "http://www.bannedbook.org/"
+            }, {
+               "date_added": "12990693848000000",
+               "id": "478",
+               "name": "美国之音",
+               "type": "url",
+               "url": "http://www.voachinese.com/"
+            }, {
+               "date_added": "12994835012000000",
+               "id": "479",
+               "name": "美国之音中文部 - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/user/voachina"
+            }, {
+               "date_added": "12990693919000000",
+               "id": "480",
+               "name": "BBC中文网",
+               "type": "url",
+               "url": "http://www.bbc.co.uk/zhongwen/simp/"
+            }, {
+               "date_added": "12990694603000000",
+               "id": "481",
+               "name": "德国之声 － 中文网",
+               "type": "url",
+               "url": "http://www.dw.de/"
+            }, {
+               "date_added": "12992338476000000",
+               "id": "482",
+               "name": "法国国际广播电台 - RFI",
+               "type": "url",
+               "url": "http://www.chinese.rfi.fr/"
+            }, {
+               "date_added": "12990694045000000",
+               "id": "483",
+               "name": "自由亚洲电台 － 普通话主页",
+               "type": "url",
+               "url": "http://www.rfa.org/mandarin/"
+            } ],
+            "date_added": "13060945677662875",
+            "date_modified": "13118682416837012",
+            "id": "464",
+            "name": "墙外媒体",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13114005516367790",
+               "id": "585",
+               "name": "天安门自焚真相《 伪火 》- YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/results?search_query=%E4%BC%AA%E7%81%AB&oq=%E4%BC%AA%E7%81%AB&gs_l=youtube.12...16368.24807.0.26431.2.2.0.0.0.0.268.502.2-2.2.0...0.0...1ac.4.BEuuh3QRMjM"
+            }, {
+               "date_added": "13118687234245404",
+               "id": "604",
+               "name": "什么是法轮大法",
+               "type": "url",
+               "url": "http://www.ntdtv.com/xtr/gb/2014/05/13/a1109389.html"
+            }, {
+               "date_added": "13114005516368790",
+               "id": "586",
+               "name": "精典电影记录片【风雨天地行】- YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=FqYAh5-0t5A"
+            }, {
+               "date_added": "13114005516368790",
+               "id": "587",
+               "name": "《 生死之間 》活摘器官（真相） - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=vRgDhn96Zhs"
+            }, {
+               "date_added": "13114005516368790",
+               "id": "588",
+               "name": "六四天安门事件屠杀大学生《3小时纪录片》Tiananmen Square protests - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=vF2YACrLP8w"
+            }, {
+               "date_added": "13114005516368790",
+               "id": "589",
+               "name": "真实的江泽民 - 新唐人电视台",
+               "type": "url",
+               "url": "http://www.ntdtv.com/xtr/gb/prog1141.html/%E7%9C%9F%E5%AE%9E%E7%9A%84%E6%B1%9F%E6%B3%BD%E6%B0%91.html"
+            }, {
+               "children": [ {
+                  "date_added": "13114005516368790",
+                  "id": "591",
+                  "name": "【九评共产党】之一：评共产党是什么",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=Xa7XoTfi8b0&list=PLl2UlPTAJkN9nj9l9VnmTXS6Bt1ey7L8c"
+               }, {
+                  "date_added": "13114005516368790",
+                  "id": "592",
+                  "name": "【九评共产党】之二：评中国共产党是怎样起家的",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=taDtXo9zmEM&list=PLl2UlPTAJkN9nj9l9VnmTXS6Bt1ey7L8c&index=2"
+               }, {
+                  "date_added": "13114005516368790",
+                  "id": "593",
+                  "name": "【九评共产党】之三：:评中国共产党的暴政",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=PjQ63cKacLQ&index=3&list=PLl2UlPTAJkN9nj9l9VnmTXS6Bt1ey7L8c"
+               }, {
+                  "date_added": "13114005516368790",
+                  "id": "594",
+                  "name": "【九评共产党】之四：:评共产党是反宇宙的力量",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=aoll8d15Brw&list=PLl2UlPTAJkN9nj9l9VnmTXS6Bt1ey7L8c&index=4"
+               }, {
+                  "date_added": "13114005516368790",
+                  "id": "595",
+                  "name": "【九评共产党】之五:：评江泽民与中共相互利用迫害法轮功",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=HDESs8E-LkE&list=PLl2UlPTAJkN9nj9l9VnmTXS6Bt1ey7L8c&index=5"
+               }, {
+                  "date_added": "13114005516368790",
+                  "id": "596",
+                  "name": "【九评共产党】之六:：评中国共产党破坏民族文化",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=2X9O-UxVqjY&list=PLl2UlPTAJkN9nj9l9VnmTXS6Bt1ey7L8c&index=6"
+               }, {
+                  "date_added": "13114005516368790",
+                  "id": "597",
+                  "name": "【九评共产党】之七：:评中国共产党的杀人历史",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=LYTfS6x0dUs&list=PLl2UlPTAJkN9nj9l9VnmTXS6Bt1ey7L8c&index=7"
+               }, {
+                  "date_added": "13114005516368790",
+                  "id": "598",
+                  "name": "【九评共产党】之八：:评中国共产党的邪教本质",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=df_XJVJTVbA&index=8&list=PLl2UlPTAJkN9nj9l9VnmTXS6Bt1ey7L8c"
+               }, {
+                  "date_added": "13114005516369790",
+                  "id": "599",
+                  "name": "【九评共产党】之九：:评中国共产党的流氓本性",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=kjeQhJWka4U&index=9&list=PLl2UlPTAJkN9nj9l9VnmTXS6Bt1ey7L8c"
+               } ],
+               "date_added": "13114005516368790",
+               "date_modified": "13114005516369790",
+               "id": "590",
+               "name": "【九评共产党】分集",
+               "type": "folder"
+            }, {
+               "date_added": "13114005516369790",
+               "id": "600",
+               "name": "今日点击 石涛评述 - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/user/shitaotv?feature=watch"
+            }, {
+               "date_added": "13114005516369790",
+               "id": "601",
+               "name": "微视频 - 新唐人电视台",
+               "type": "url",
+               "url": "http://www.ntdtv.com/xtr/gb/prog1128.html/%E5%BE%AE%E8%A7%86%E9%A2%91.html"
+            }, {
+               "date_added": "13114005516369790",
+               "id": "602",
+               "name": "细语人生 - 新唐人电视台",
+               "type": "url",
+               "url": "http://www.ntdtv.com/xtr/gb/prog40.html"
+            }, {
+               "date_added": "13114005516369790",
+               "id": "603",
+               "name": "神韵艺术团",
+               "type": "url",
+               "url": "http://zh-cn.shenyun.com/videos/latest-videos/#/latest-videos"
+            } ],
+            "date_added": "13114005516367790",
+            "date_modified": "13118687238260404",
+            "id": "584",
+            "name": "视听资料",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13067092747841000",
+               "id": "563",
+               "name": "YouTube gl=US",
+               "type": "url",
+               "url": "https://www.youtube.com/?gl=US"
+            }, {
+               "date_added": "13081832143796824",
+               "id": "582",
+               "name": "YouTube  https://www.youtube.com/",
+               "type": "url",
+               "url": "https://www.youtube.com/"
+            }, {
+               "date_added": "12992499324000000",
+               "id": "523",
+               "name": "国内视频网站汇总_【hao123上网导航】",
+               "type": "url",
+               "url": "http://www.hao123.com/video"
+            }, {
+               "date_added": "13000786722000000",
+               "id": "524",
+               "name": "Vimeo, Your Videos Belong Here",
+               "type": "url",
+               "url": "http://vimeo.com/"
+            }, {
+               "date_added": "13000786551000000",
+               "id": "525",
+               "name": "Dailymotion - Watch, publish, share videos",
+               "type": "url",
+               "url": "http://www.dailymotion.com/cn"
+            }, {
+               "date_added": "13030692278000000",
+               "id": "526",
+               "name": "神洲電影製片廠 - Shen Zhou Film Studio",
+               "type": "url",
+               "url": "http://www.shenzhoufilm.com/"
+            }, {
+               "date_added": "13030692305000000",
+               "id": "527",
+               "name": "放光明电视制作中心(FGM TV)",
+               "type": "url",
+               "url": "http://asp.fgmtv.org/"
+            } ],
+            "date_added": "13060945677670875",
+            "date_modified": "13087368388695500",
+            "id": "520",
+            "name": "视频站",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "12990688783000000",
+               "id": "529",
+               "name": "Facebook",
+               "type": "url",
+               "url": "https://www.facebook.com/"
+            }, {
+               "date_added": "13014947310000000",
+               "id": "530",
+               "name": "Twitter",
+               "type": "url",
+               "url": "https://twitter.com/"
+            }, {
+               "date_added": "12993714504000000",
+               "id": "531",
+               "name": "Google+",
+               "type": "url",
+               "url": "https://plus.google.com/"
+            }, {
+               "date_added": "13042809284000000",
+               "id": "532",
+               "name": "领英",
+               "type": "url",
+               "url": "https://www.linkedin.com/"
+            }, {
+               "date_added": "13062913163638750",
+               "id": "561",
+               "name": "Pinterest",
+               "type": "url",
+               "url": "https://www.pinterest.com/"
+            }, {
+               "date_added": "13042812922000000",
+               "id": "535",
+               "name": "Instagram",
+               "type": "url",
+               "url": "http://instagram.com/"
+            }, {
+               "date_added": "12990710029000000",
+               "id": "533",
+               "name": "新浪微博",
+               "type": "url",
+               "url": "http://weibo.com/"
+            }, {
+               "date_added": "13051411423000000",
+               "id": "534",
+               "name": "腾讯微博",
+               "type": "url",
+               "url": "http://t.qq.com/"
+            }, {
+               "date_added": "13040470181000000",
+               "id": "536",
+               "name": "Facebook手机版",
+               "type": "url",
+               "url": "https://m.facebook.com/?_rdr"
+            } ],
+            "date_added": "13060945677671875",
+            "date_modified": "13092540840799000",
+            "id": "528",
+            "name": "社交",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13028300059000000",
+               "id": "538",
+               "name": "有道网页翻译【外文网页点一下就翻译】",
+               "type": "url",
+               "url": "javascript: void((function() {var element = document.createElement('script');element.id = 'outfox_seed_js';element.charset = 'utf-8',element.setAttribute('src', 'http://fanyi.youdao.com/web2/seed.js?' + Date.parse(new Date()));document.body.appendChild(element);})())"
+            }, {
+               "date_added": "12993713612000000",
+               "id": "539",
+               "name": "Google Translate － 谷歌翻译",
+               "type": "url",
+               "url": "http://translate.google.cn/?hl=en#auto/zh-CN/"
+            }, {
+               "date_added": "13067835424511875",
+               "id": "564",
+               "name": "聚缘阁代理",
+               "type": "url",
+               "url": "https://pipes.yahoo.com/pipes/pipe.run?_id=03c6d1103bd3bd1607f1b4a5f2f89324"
+            }, {
+               "date_added": "12990698833000000",
+               "id": "540",
+               "name": "IP地址查询 - 本机的 ip",
+               "type": "url",
+               "url": "http://www.ip138.com/"
+            }, {
+               "date_added": "13075788998497750",
+               "id": "569",
+               "name": "MyIP.ms",
+               "type": "url",
+               "url": "http://myip.ms/"
+            }, {
+               "date_added": "12990699139000000",
+               "id": "542",
+               "name": "Speedtest.net - 网速测试",
+               "type": "url",
+               "url": "http://www.speedtest.net/"
+            }, {
+               "date_added": "13014947196000000",
+               "id": "543",
+               "name": "VirusTotal - 多引擎在线病毒扫描网",
+               "type": "url",
+               "url": "https://www.virustotal.com/zh-cn/"
+            }, {
+               "date_added": "13067836178094000",
+               "id": "565",
+               "name": "聚缘阁代理论坛",
+               "type": "url",
+               "url": "http://bbs.juyuange.org/"
+            } ],
+            "date_added": "13060945677672875",
+            "date_modified": "13075789258878625",
+            "id": "537",
+            "name": "工具",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13030269000000000",
+               "id": "549",
+               "name": "Gmail 登录",
+               "type": "url",
+               "url": "https://mail.google.com/mail/?tab=wm"
+            }, {
+               "date_added": "12990700213000000",
+               "id": "551",
+               "name": "Windows Live Hotmail",
+               "type": "url",
+               "url": "https://www.hotmail.com/"
+            }, {
+               "date_added": "12990700506000000",
+               "id": "552",
+               "name": "网易免费邮箱",
+               "type": "url",
+               "url": "http://email.163.com/"
+            }, {
+               "date_added": "12990701192000000",
+               "id": "553",
+               "name": "【临时邮箱】 10 分钟邮箱",
+               "type": "url",
+               "url": "http://10minutemail.com/10MinuteMail/"
+            } ],
+            "date_added": "13060945677673875",
+            "date_modified": "0",
+            "id": "548",
+            "name": "邮箱",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "12990685919000000",
+               "id": "555",
+               "name": "Google 英文主页 ncr",
+               "type": "url",
+               "url": "https://www.google.com/ncr"
+            }, {
+               "date_added": "12992499284000000",
+               "id": "557",
+               "name": "百度",
+               "type": "url",
+               "url": "http://www.baidu.com/"
+            }, {
+               "date_added": "12990711086000000",
+               "id": "558",
+               "name": "维基百科，自由的百科全书",
+               "type": "url",
+               "url": "http://zh.wikipedia.org/"
+            }, {
+               "date_added": "13043056900000000",
+               "id": "559",
+               "name": "DuckDuckGo【匿名搜索引擎】",
+               "type": "url",
+               "url": "https://duckduckgo.com/"
+            }, {
+               "date_added": "13043056965000000",
+               "id": "560",
+               "name": "Torrentz【种子搜索】",
+               "type": "url",
+               "url": "http://torrentz.eu/"
+            } ],
+            "date_added": "13060945677674875",
+            "date_modified": "0",
+            "id": "554",
+            "name": "搜索",
+            "type": "folder"
+         } ],
+         "date_added": "13042351543501625",
+         "date_modified": "13114005522836790",
+         "id": "1",
+         "name": "书签栏",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13042351543502625",
+         "date_modified": "0",
+         "id": "2",
+         "name": "其他书签",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13042351543502625",
+         "date_modified": "0",
+         "id": "3",
+         "name": "移动设备书签",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

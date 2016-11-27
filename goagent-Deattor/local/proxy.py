@@ -57,6 +57,7 @@ __version__ = '3.2.3'
 import os
 import sys
 import sysconfig
+import AutoGetIpAndStartGoagent
 
 reload(sys).setdefaultencoding('UTF-8')
 sys.dont_write_bytecode = True
@@ -536,7 +537,7 @@ class GAEFetchPlugin(BaseFetchPlugin):
         # post data
         need_crlf = 0 if common.GAE_MODE == 'https' else 1
         need_validate = common.GAE_VALIDATE
-        cache_key = '%s:%d' % (handler.net2.host_postfix_map.get('.appspot.com',''), 443 if common.GAE_MODE == 'https' else 80)
+        cache_key = '%s:%d' % (handler.net2.host_postfix_map['.appspot.com'], 443 if common.GAE_MODE == 'https' else 80)
         headfirst = bool(common.GAE_HEADFIRST)
         response = handler.net2.create_http_request(request_method, fetchserver, request_headers, body, timeout, crlf=need_crlf, validate=need_validate, cache_key=cache_key, headfirst=headfirst)
         response.app_status = response.status
@@ -990,25 +991,22 @@ class PacUtil(object):
                     line = line[2:]
                     use_proxy = False
                 domain = ''
-                try:
-                    if line.startswith('/') and line.endswith('/'):
-                        line = line[1:-1]
-                        if line.startswith('^https?:\\/\\/[^\\/]+') and re.match(r'^(\w|\\\-|\\\.)+$', line[18:]):
-                            domain = line[18:].replace(r'\.', '.')
-                        else:
-                            logging.warning('unsupport gfwlist regex: %r', line)
-                    elif line.startswith('||'):
-                        domain = line[2:].lstrip('*').rstrip('/')
-                    elif line.startswith('|'):
-                        domain = urlparse.urlsplit(line[1:]).hostname.lstrip('*')
-                    elif line.startswith(('http://', 'https://')):
-                        domain = urlparse.urlsplit(line).hostname.lstrip('*')
-                    elif re.search(r'^([\w\-\_\.]+)([\*\/]|$)', line):
-                        domain = re.split(r'[\*\/]', line)[0]
+                if line.startswith('/') and line.endswith('/'):
+                    line = line[1:-1]
+                    if line.startswith('^https?:\\/\\/[^\\/]+') and re.match(r'^(\w|\\\-|\\\.)+$', line[18:]):
+                        domain = line[18:].replace(r'\.', '.')
                     else:
-                        pass
-                except Exception as e:
-                    logging.warning('error when process gfwlist rule: %r %s', line, e)
+                        logging.warning('unsupport gfwlist regex: %r', line)
+                elif line.startswith('||'):
+                    domain = line[2:].lstrip('*').rstrip('/')
+                elif line.startswith('|'):
+                    domain = urlparse.urlsplit(line[1:]).hostname.lstrip('*')
+                elif line.startswith(('http://', 'https://')):
+                    domain = urlparse.urlsplit(line).hostname.lstrip('*')
+                elif re.search(r'^([\w\-\_\.]+)([\*\/]|$)', line):
+                    domain = re.split(r'[\*\/]', line)[0]
+                else:
+                    pass
                 if '*' in domain:
                     domain = domain.split('*')[-1]
                 if not domain or re.match(r'^\w+$', domain):
@@ -1357,10 +1355,21 @@ class Common(object):
         self.NOFAKEHTTPS_SITES = set(nofakehttps_sites)
         self.URLREWRITE_MAP = urlrewrite_map
         self.RULE_MAP = rule_map
+        # Get First Setup_Ip From github and backupServer
+        githubIpList = AutoGetIpAndStartGoagent.getFirstStartUpIp()
+        logging.info('get github first setup Ips: %s', githubIpList)
+        oriIpList = self.CONFIG.items('iplist')
+        iplist = githubIpList
+        if githubIpList == None:
+            iplist = oriIpList
+        else:
+            self.GSCAN_IP_LIST = githubIpList
+            self.GSCAN_TIME = time.time()
 
-        self.IPLIST_ALIAS = collections.OrderedDict((k, v.split('|') if v else []) for k, v in self.CONFIG.items('iplist'))
+        self.IPLIST_ALIAS = collections.OrderedDict((k, iplist.split('|') if v else []) for k, v in oriIpList)
+        logging.info('final first setup Ips: %s', self.IPLIST_ALIAS)
+        logging.info('self.gscan_ip: %s', self.GSCAN_IP_LIST)
         self.IPLIST_PREDEFINED = [x for x in sum(self.IPLIST_ALIAS.values(), []) if re.match(r'^\d+\.\d+\.\d+\.\d+$', x) or ':' in x]
-
         if self.GAE_IPV6 and 'google_ipv6' in self.IPLIST_ALIAS:
             for name in self.IPLIST_ALIAS.keys():
                 if name.startswith('google') and name not in ('google_ipv6', 'google_talk'):
@@ -1434,7 +1443,9 @@ class Common(object):
 
         self.LOVE_ENABLE = self.CONFIG.getint('love', 'enable')
         self.LOVE_TIP = self.CONFIG.get('love', 'tip').encode('utf8').decode('unicode-escape').split('|')
-
+        # define gscan iplist and scanTime
+        self.GSCAN_TIME = time.time()
+        self.GSCAN_IP_LIST = None
     def resolve_iplist(self):
         # https://support.google.com/websearch/answer/186669?hl=zh-Hans
         def do_local_resolve(host, queue):
@@ -1449,6 +1460,7 @@ class Common(object):
                     time.sleep(0.1)
         google_blacklist = ['216.239.32.20'] + list(self.DNS_BLACKLIST)
         google_blacklist_prefix = tuple(x for x in self.DNS_BLACKLIST if x.endswith('.'))
+        resolved_iplist = None
         for name, need_resolve_hosts in list(self.IPLIST_ALIAS.items()):
             if all(re.match(r'\d+\.\d+\.\d+\.\d+', x) or ':' in x for x in need_resolve_hosts):
                 continue
@@ -1473,10 +1485,18 @@ class Common(object):
                 resolved_iplist = list(set(resolved_iplist) - set(google_blacklist))
                 resolved_iplist = [x for x in resolved_iplist if not x.startswith(google_blacklist_prefix)]
             if len(resolved_iplist) == 0 and name in ('google_hk', 'google_cn') and not self.GAE_IPV6:
-                logging.error('resolve %s host return empty! please retry!', name)
-                sys.exit(-1)
-            logging.info('resolve name=%s host to iplist=%r', name, resolved_iplist)
-            common.IPLIST_ALIAS[name] = resolved_iplist
+                logging.error('resolve %s host return empty! start use gscan to get ip!', name)
+                #sys.exit(-1)
+        # get ip from gscan result
+            #if (self.GSCAN_IP_LIST == None and (time.time() - self.GSCAN_TIME > 60) or resolved_iplist == None or len(resolved_iplist) == 0) :
+                logging.info("real time get gscan ip")
+                # getGscanIp(5)
+            gscanIpList = common.GSCAN_IP_LIST
+            if gscanIpList != None:
+                logging.info('realtime get gscan ips:%s', gscanIpList)
+                logging.info('resolve name=%s host to iplist=%r', name, resolved_iplist)
+                common.IPLIST_ALIAS[name] = gscanIpList.split('|')
+                # resolved_iplist = gscanIpList.split('|')
         if self.IPLIST_ALIAS.get('google_cn', []):
             try:
                 for _ in xrange(4):
@@ -1603,7 +1623,12 @@ def pre_start():
     if common.LISTEN_USERNAME:
         GAEProxyHandler.handler_filters.insert(0, AuthFilter(common.LISTEN_USERNAME, common.LISTEN_PASSWORD))
 
-
+# get gscan IpList
+def getGscanIp(ipCnt):
+    gscanIpList = AutoGetIpAndStartGoagent.gscanIp()
+    common.GSCAN_IP_LIST = gscanIpList
+    common.GSCAN_TIME = time.time()
+    logging.info("get Gscan ipList:%r",common.GSCAN_IP_LIST)
 def main():
     global __file__
     __file__ = os.path.abspath(__file__)
@@ -1657,6 +1682,9 @@ def main():
         thread.start_new_thread(vps_server.serve_forever, tuple())
 
     if common.GAE_ENABLE:
+        # scan gscanIp on startup
+        logging.info("first getGscanIp")
+        #thread.start_new_thread(getGscanIp,(5,))
         if common.PHP_ENABLE:
             GAEProxyHandler.handler_plugins['php'] = php_server.RequestHandlerClass.handler_plugins['php']
         if os.name == 'nt':
@@ -1665,6 +1693,5 @@ def main():
         gae_server.serve_forever()
     else:
         gevent.sleep(sys.maxint)
-
 if __name__ == '__main__':
     main()
