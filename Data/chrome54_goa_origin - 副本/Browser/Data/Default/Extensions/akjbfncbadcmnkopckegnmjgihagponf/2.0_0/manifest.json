@@ -1,0 +1,34 @@
+{
+   "background": {
+      "page": "background/page.html"
+   },
+   "content_scripts": [ {
+      "js": [ "lib/jquery.js", "contentscripts/any_start.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApMyJxaY5Lk9y50To/JFxZx8bSC1rrK9jUH8ajsudJfWq4pl3CAxqo6i/u5ugCEHbCaBNKG+ESiPDQDOuxSXL43z75Ps07oc4Ip0Zja+DKzbpXzIxarFJx/KNMbS0zhb/HdOP+1+szk2uGtw+pnv07ntM5aq87XMLd0QnFJnfWhXuCbFVWKvHB6MmVL11RCban9gmPoXRhEjVVrUTEGucN/smjUqIB+c4yI/8N6YuGFx/YZAIdap11cmkc8DI2k+8saWvu0oBagodILL76uiPcL8ODMVK9C1qPcxeVP5sheQtiN7I0J+cH66XriR2KJY3akB04I+oYMp/ZY9i9ABRrQIDAQAB",
+   "manifest_version": 2,
+   "name": "HD for YouTube™",
+   "options_page": "ui/options.html",
+   "page_action": {
+      "default_icon": {
+         "19": "icons/icon19pa.png",
+         "38": "icons/icon38pa.png"
+      },
+      "default_popup": "ui/pageaction.html",
+      "default_title": "HD for YouTube™"
+   },
+   "permissions": [ "*://*/*", "webRequest", "webRequestBlocking", "tabs", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0",
+   "web_accessible_resources": [ "inj/ytcom.js" ]
+}

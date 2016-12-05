@@ -1,0 +1,8 @@
+{
+  "name": "SwiftShader",
+  "version": "3.2.6.45159",
+  "description": "Software based rendering component.",
+  "x-swiftshader-os": "win",
+  "x-swiftshader-arch" : "ia32",
+  "x-swiftshader-rev": "45159"
+}

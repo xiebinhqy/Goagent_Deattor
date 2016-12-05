@@ -1,0 +1,30 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "stylist.css" ],
+      "js": [ "stylist.js" ],
+      "matches": [ "http://*/*", "https://*/*", "ftp://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Chrome Stylist",
+   "icons": {
+      "128": "stylist128.png",
+      "48": "stylist48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5xdYaVAh5f0ih57SMpL7BoHJFtdvCcN8jScXdaRFvzSeDCEUxDZsQlWfgckQ7Uq1bDUb7sqNYAihLoUm0VXv6QxCiBYQNHW1LUKJl0kh584b9jpeeeDcvV9eklF4udzPGgvFU8k6kETDnFQbliGJVrTr7xa8aGL7glGMXPEaBcQIDAQAB",
+   "manifest_version": 2,
+   "name": "Stylist",
+   "options_page": "options_page.html",
+   "page_action": {
+      "default_icon": "stylist16.png",
+      "default_popup": "popup.html",
+      "default_title": "add new style"
+   },
+   "permissions": [ "tabs", "http://*/", "https://*/", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.0"
+}

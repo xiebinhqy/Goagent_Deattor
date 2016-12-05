@@ -1,0 +1,26 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "dragandgo.js" ],
+      "matches": [ "http://*/*", "https://*/*", "ftp://*/*" ],
+      "permissions": [ "tabs" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "dragandgo_128x128.png",
+      "32": "dragandgo_32x32.png",
+      "48": "dragandgo_48x48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD3WQIHTm42jhvC4G9RH7rEt54IQiiLG9+zojd/6eRnYYVsolZkNqx0DZr/GLNZm+zW/MGb0Q785qeB23PhX9kC7Q14C6tKW2l/90fvhR65BrbBEKtHAwu7bu1t+3AQRxfiQbmQ9CY392wbrqV2Y4xqQFxCVMSgz4gs/03oLU4OGwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "options_page": "options.html",
+   "permissions": [ "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.9.1.1"
+}

@@ -1,0 +1,12 @@
+{
+   "26YaoM4gVrY0ie3hywpFBUJh47nIlvTljf0QEZuoLCM=": {
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1488673714.65127,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "pkp_observed": 1477787314.65127,
+      "static_spki_hashes": [  ],
+      "sts_include_subdomains": true,
+      "sts_observed": 1477787314.65127
+   }
+}

@@ -1,0 +1,56 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>HD for YouTube™ Options</title>
+  
+  <style>
+    * { font-size: 14px; font-family:verdana,arial; padding: 0px; margin: 0px;}
+    h1 { font-size: 20px; margin-top: 20px; margin-bottom: 20px; }
+    div.option { width: 400px; height: 20px; border-bottom: 1px solid #ddd; padding-bottom: 10px; padding-top: 10px; }
+    div.left { width: 150px; height: 22px; float: left; }
+    div.right { width: 250px; height: 22px; }
+    #save { padding: 5px; padding-left: 10px; padding-right: 10px; }
+    #status { padding: 5px; }
+  </style>
+</head>
+
+<body>
+
+<div style="width: 400px; margin: 0 auto;">
+
+  <div>
+    
+    <h1>HD for YouTube™ Options</h1>
+    
+    <div>
+      <div style="display: inline-block; width: 130px;">Default Quality:</div>
+      <select id="quality">
+        <option value="small">240p</option>
+        <option value="medium">360p</option>
+        <option value="large">480p</option>
+        <option value="hd720">720p</option>
+        <option value="hd1080">1080p</option>
+        <option value="hd1440">1440p</option>
+        <option value="highres">4K</option>
+      </select>
+    </div>
+    
+    <div style="margin-top: 5px;">
+      <div style="display: inline-block; width: 130px;">Darkmode*:</div>
+      <input id="darkmode" type="checkbox" />
+      <div style="font-size: 12px; font-style: italic; margin-left: 10px;">*reload tab to activate darkmode</div>
+    </div>
+    
+  </div>
+
+  <br>
+  <div id="status"></div>
+  <button id="save">Save</button>
+
+</div>
+
+</body>
+
+<script src="options.js"></script>
+
+</html>

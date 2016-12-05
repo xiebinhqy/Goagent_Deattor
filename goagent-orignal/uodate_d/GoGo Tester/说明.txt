@@ -1,0 +1,3 @@
+程序无法运行的请先安装.NET Frameworks 4.0，并且确保系统补丁打满。
+
+NET Frameworks 4.0下载地址：http://www.microsoft.com/zh-cn/download/details.aspx?id=17718

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Chrome Stylist</title>
+    <script src="x.js"></script>
+    <script src="tween2.js"></script>
+    <script src="stylist.js"></script>
+    <link href="option_page.css" rel="stylesheet" type="text/css">
+<body>
+<ul class="tabs" id="menu_tabs">
+    <li class="basics"><a href="#basics" class="active"><span>Basics</span></a>
+    <li class="styles"><a href="#styles"><span>Styles</span></a>
+    <li class="about"><a href="#about"><span>About</span></a>
+</ul>
+<div id="container">
+    <div id="inner_container">
+        <section id="basics" class="content">
+            <p><img src="stylist19.png">Stylist icon</p>
+
+            <p class="sub"><input type="radio" id="status_icon_none" value="0" name="status_icon"><label
+                    for="status_icon_none">none</label></p>
+
+            <p class="sub"><input type="radio" id="status_icon_part" value="2" name="status_icon"><label
+                    for="status_icon_part">matched</label></p>
+
+            <p class="sub"><input type="radio" id="status_icon_all" value="1" name="status_icon"><label
+                    for="status_icon_all">always</label></p>
+        </section>
+        <section id="styles" class="content">
+            <div id="left_box">
+                <ul id="style_list">
+                </ul>
+                <button id="add_style">Add New Style</button>
+                <p>search from <a href="http://userstyles.org/">userstyles.org</a></p>
+            </div>
+            <div id="right_box">
+            </div>
+        </section>
+        <section id="about" class="content">
+            <dl>
+                <dt>Name:
+                <dt>
+                <dd><a href="https://chrome.google.com/webstore/detail/pabfempgigicdjjlccdgnbmeggkbjdhd"
+                       target="_blank">Stylist</a></dd>
+                <dt>Version:
+                <dt>
+                <dd>ver <span id="ExtensionVersion"></span></dd>
+                <dt>Author:
+                <dt>
+                <dd><a href="http://ss-o.net/" target="_blank">os0x</a></dd>
+                <dt>License:
+                <dt>
+                <dd><a href="http://creativecommons.org/licenses/MIT/" target="_blank">The MIT license</a></dd>
+            </dl>
+        </section>
+    </div>
+</div>
+<script src="options.js"></script>
+</body>
+</html>
