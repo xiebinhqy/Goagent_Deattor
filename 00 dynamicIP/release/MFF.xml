@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--参数设置-->
+<Paras Author="BadCat">
+  <ScanPara>
+    <!--扫描参数-->
+    <ThreadNum>150<!--测试线程数，最大值为4000--></ThreadNum>
+	<Count>1<!--测试次数，最大值为100--></Count>
+	<TimeOut>2500<!--超时时间，单位为毫秒，最大值为50000--></TimeOut>
+  </ScanPara>
+  <!-- 这里可以设置为 GoProxy 的目录-->
+  <GoProxyPath>./</GoProxyPath>
+</Paras>

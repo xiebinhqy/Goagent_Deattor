@@ -1,0 +1,138 @@
+{
+	"AppIDs": [
+		"goagenta"
+	],
+	"Password": "",
+	"SSLVerify": false,
+	"ForceIPv6": false,
+	"DisableHTTP2": false,
+	"ForceHTTP2": false,
+	"EnableDeadProbe": true,
+	"Sites": [
+		"*"
+	],
+	"HostMap" : {
+		"google_hk": [
+			"173.194.60.140","59.18.35.105","173.194.17.169","216.58.200.24","173.194.57.139","173.194.142.60","173.194.24.219","173.194.29.103","202.224.62.62","203.252.15.173","62.84.6.117","61.238.239.222","203.66.155.180","203.133.72.145","61.238.239.212","173.194.144.233","193.95.144.93","45.64.20.51","193.95.144.98","173.194.147.153","193.90.147.181","173.194.22.188","203.133.72.160","193.95.144.77","66.102.1.107","203.66.155.153","202.75.147.30","61.238.239.148","61.238.239.121","74.125.142.193","172.217.25.68","173.194.142.57","118.98.111.84","173.194.144.27","202.75.147.25","63.84.3.50","188.43.68.46","74.125.196.110","173.194.57.148"
+		],
+		"google_talk": [
+			"talk.google.com",
+			"talk.l.google.com",
+			"talkx.l.google.com"
+		],
+		"google_cn": [
+			"www.g.cn",
+			"www.google.cn"
+		]
+	},
+	"Site2Alias": {
+		"*.appspot.com": "google_hk",
+		"*.ggpht.com": "google_hk",
+		"*.google-analytics.com": "google_cn",
+		"*.google.cn": "google_cn",
+		"*.google.com": "google_hk",
+		"*.google.com.hk": "google_hk",
+		"*.googleapis.com": "google_hk",
+		"*.googlecode.com": "google_hk",
+		"*.googlegroups.com": "google_hk",
+		"*.googletagmanager.com": "google_hk",
+		"*.googletagservices.com": "google_hk",
+		"*.googleusercontent.com": "google_hk",
+		"*.gstatic.com": "google_hk",
+		// "*.youtube.com": "google_hk",
+		"*.ytimg.com": "google_hk",
+		"dl.google.com": "google_cn",
+		"fonts.googleapis.com": "google_cn",
+		"talk.google.com": "google_talk",
+		"talk.l.google.com": "google_talk",
+		"talkx.l.google.com": "google_talk",
+	},
+	"ForceHTTPS": [
+		"*.google.com",
+		"*.google.com.hk",
+	],
+	"ForceGAE": [
+		"translate.googleapis.com",
+		"domains.google.com",
+		"www.google.com/patents",
+	],
+	"TLSConfig": {
+		"Version": "TLSv1.2",
+		"ClientSessionCacheSize": 1024,
+		"Ciphers": [
+			"TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+			"TLS_RSA_WITH_AES_128_CBC_SHA256",
+			// "TLS_RSA_WITH_AES_256_CBC_SHA256",
+		],
+		"ServerName": [
+			"appleid.apple.com",
+			"assets-cdn.github.com",
+			"download.windowsupdate.com",
+			"github.com",
+			"www.apple.com",
+			"www.bing.com",
+			"www.microsoft.com",
+			// "ad.doubleclick.net",
+			// "googleads.g.doubleclick.net",
+			// "pubads.g.doubleclick.net",
+			// "www.google-analytics.com",
+		],
+	},
+	"GoogleG2KeyID": "4add06161bbcf668b576f581b6bb621aba5a812f",
+	"FakeOptions": {
+		"*": [
+			"Access-Control-Allow-Credentials: true",
+			"Access-Control-Allow-Headers: Authorization, Content-Type, If-Modified-Since, X-Act-As-User-Id, X-B3-Flags, X-Contribute-To-User-Id, X-CSRF-Token, X-Guest-Token, X-TD-Iff-Mtime, X-TD-Mtime-Check, X-Twitter-Auth-Type, X-Twitter-Client, X-Twitter-Client-Version, X-Twitter-Polling, X-Twitter-UTCOffset",
+			"Access-Control-Allow-Methods: GET, POST, HEAD, PUT, DELETE",
+			"Access-Control-Allow-Origin: *",
+			"Access-Control-Max-Age: 1728000",
+		],
+	},
+	"DNSServers": [
+		"114.114.114.114",
+		"114.114.115.115",
+		"168.95.1.1",
+		"168.95.192.1",
+		"178.79.131.110",
+		"199.91.73.222",
+		"2001:470:20::2",
+		"2001:4860:4860::8844",
+		"2001:4860:4860::8888",
+		"208.67.220.220",
+		"208.67.222.222",
+		"209.244.0.3",
+		"209.244.0.4",
+		"223.5.5.5",
+		"223.6.6.6",
+		"8.8.4.4",
+		"8.8.8.8"
+	],
+	"IPBlackList": [
+		"159.106.121.75",
+		"203.98.7.65",
+		"243.185.187.39",
+		"37.61.54.158",
+		"59.24.3.173",
+		"46.82.174.68",
+		"78.16.49.15",
+		"8.7.198.45",
+		"93.46.8.89",
+	],
+	"Transport": {
+		"Dialer": {
+			"DNSCacheExpiry": 864000,
+			"DNSCacheSize": 81920,
+			"DualStack": false,
+			"KeepAlive": 180,
+			"Level": 4,
+			"Timeout": 8,
+		},
+		"DisableCompression": false,
+		"DisableKeepAlives": false,
+		"IdleConnTimeout": 180,
+		"MaxIdleConnsPerHost": 16,
+		"ResponseHeaderTimeout": 16,
+		"RetryDelay": 0.5,
+		"RetryTimes": 3,
+	}
+}

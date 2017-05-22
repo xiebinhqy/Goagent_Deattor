@@ -1,0 +1,21 @@
+
+### 2016/5/20
+
+1. 支持导入"xxx","xxx"型IP，例如 gae.user.json 里的 IP，可大量复制
+
+
+### 2016/05/22 
+
+1. 完善了 gae.user.json 文件的导出，现在的导出，不再是重新生成文件，而是修改文件
+   这样大家可以自定义自己的 user.json 文件了
+
+2. 支持修改 MFF.xml 来设置 gae.user.json 的生成目录
+   设置成 goproxy 的目录的话，每次导出都会自动修改goproxy目录下的gae.user.json，比较方便
+
+   默认路径是 ./ 也就是 MFF 目录下，如果不修改的话，就会生成在 MFF目录下
+   注意这时候一定要保证MFF目录下有个 gae.user.json 文件，这个文件大家也可以自行精简
+
+   举例，goproxy 的路径是 `C:\Program Files\goproxy`
+   那么在 MFF.xml 里修改成 `<GoProxyPath>C:\Program Files\goproxy</GoProxyPath>`
+   
+本次更新没有太多的测试，大家用的时候注意备份 gae.user.json
